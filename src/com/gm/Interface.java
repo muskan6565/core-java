@@ -3,6 +3,7 @@ package com.gm;
 interface Calculator{
 	public void sum(int a,int b);
 	public void sub(int a,int b);
+	
 	default void mul(int a,int b)
 	{
 		System.out.println("mul=" + (a*b));	
