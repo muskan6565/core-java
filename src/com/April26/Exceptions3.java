@@ -18,6 +18,7 @@ class Demo1 {
             System.out.println("sub = " + (a - b));
             System.out.println("multi = " + (a * b));
             System.out.println("div = " + (a / b));
+            scan.close();
         } 
         catch (InputMismatchException e) {
             System.out.println("enter a integer value");
@@ -27,8 +28,10 @@ class Demo1 {
         }
         catch (Exception g) {
             System.out.println("Some problem");
+           
         }
     }
+    
 }
 
 class Demo2 {

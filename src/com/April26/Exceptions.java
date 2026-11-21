@@ -21,6 +21,7 @@ public class Exceptions {
         catch(Exception e)
         {
         	System.out.println("complete temination");
+        	scan.close();
         }
 	}
 
