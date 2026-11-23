@@ -6,7 +6,7 @@ public class BoxingAndUnboxing {
 
 	public static void main(String[] args) {
 		ArrayList	al = new ArrayList();
-		al.add(new Integer(100));
+		al.add(new Integer(100));//auto boxing
 		al.add(new Thread());
 		al.add(new Exception());
 		al.add(new String("Mussu"));
